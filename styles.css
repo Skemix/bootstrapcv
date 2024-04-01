@@ -1,0 +1,46 @@
+
+body {
+   font-family: Georgia, serif; 
+   margin: 0; 
+   background-color: #A0A0A0;
+}
+
+.container {
+  padding: 20px; 
+}
+
+h1, h3, h4, h5, h6 {
+  color: #000000; 
+}
+
+h2 {
+  color: #4B0082; 
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.profile-image {
+      max-width: 200px; 
+      height: 200px; 
+      object-fit: cover; 
+    }
+
+a {
+      color: #4B0082; 
+      font-size: 16px; 
+      transition: font-size 0.3s; 
+    }
+
+a:hover {
+      font-size: 18px; 
+      font-weight: bold;
+    }
+
+@media (max-width: 768px) {
+      body {
+        background-color: #EDEDED;
+      }
+    }
+	
